@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dress {
+  top: 10%;
+  left: 15%;
+  -webkit-transform: translate(-50%, 50);
+          transform: translate(-50%, 50);
+  position: absolute;
+}
+
+.dress .dress-image img {
+  height: 160px;
+  width: 150px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: block;
+  border: 1px;
+  opacity: .5;
+}
+
+.dress .dress-image img:hover {
+  opacity: 1;
+}
+
+.dress-image {
+  float: left;
+}
+
+.image-box .img {
+  max-width: 50%;
+  width: 50px;
+}
+/*# sourceMappingURL=fashionmagazin.css.map */
